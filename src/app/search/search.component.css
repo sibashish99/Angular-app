@@ -1,0 +1,31 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+div input{
+    border-radius: 2rem 0 0 2rem;
+    border: none;
+    height: 3rem;
+    width: 20rem;
+    background-color: aliceblue;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+div button{
+    color: rgb(226, 226, 249);
+    height: 3rem;
+    width: 6rem;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #7a42fa;
+    border-radius: 0 2rem 2rem 0;
+    border: none;
+} 
+div button:hover{
+    background-color: #4c02f9;
+    opacity: 1;
+    cursor: pointer;
+}

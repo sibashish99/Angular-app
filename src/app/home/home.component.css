@@ -1,0 +1,79 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a{
+    height: 27rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: rgb(93, 100, 235);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: 0.3s ease;
+}
+
+li a:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+}
+
+.content{
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+.name{
+    color:  rgb(93, 100, 235);;
+    font-family: 'Titillium Web', sans-serif;
+}
+.favorite{
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #ff2121;;
+}
+
+.favorite.not{
+    color: black;
+}
+
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgb(140, 145, 239);
+}
+.origins{
+    flex: 9;
+}
+
+.origins span{
+    border-radius: .2rem;
+    background-color: rgb(222, 221, 221);
+    color: gray;
+    font-size: .8rem;
+    margin-right: 3rem;
+    display: inline-block;
+}
+
+.cook-time{
+    font-size: .8rem;
+    flex: 3;
+    text-align: center;
+}
+
+.price{
+    color: black;
+}

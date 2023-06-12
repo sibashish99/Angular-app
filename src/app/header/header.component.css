@@ -1,0 +1,41 @@
+header{
+    background-color: white;
+    padding: 0;
+    border-bottom: 0.5px solid rgb(0, 17, 255);
+    background-image: linear-gradient(45deg, #f4248c, #7a42fa);
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+    color: rgb(216, 216, 216);
+   
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a.logo{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a{
+  font-size: 1.5rem;
+  padding:  1em;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}

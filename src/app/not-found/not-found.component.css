@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 85vh;
+}
+div a{
+    background-color: rgb(93, 100, 235);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius:  10rem;
+    padding: .7rem;
+    margin: 1rem;
+    width: 20%;
+    text-align: center;
+}
+div a:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(93, 100, 235);
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div a{
+    padding: .3rem 1rem;
+    margin: .2rem .15rem;
+    background-color: aliceblue;
+    border-radius: 0.8rem;
+    color: rgb(140, 145, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

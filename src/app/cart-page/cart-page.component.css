@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: 0 auto;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+ul li :last-child{
+    border: none;
+}
+
+ul li img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 2rem;
+    object-fit: cover;
+
+}
+
+ul li div{
+    padding: 1rem;
+}
+
+ul li div:first-child{
+    flex-basis: 18%;
+}
+
+ul .remove{
+   border: none;
+   outline: none;
+   padding: .5rem;
+   opacity: .7;
+   color: rgb(0, 0, 0);
+   background-color: rgb(225, 225, 225);
+   font-weight: bold;
+}
+
+ul .remove:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-radius: .5rem;
+    background-color: rgb(225, 225, 225);
+    color: rgb(255, 38, 38);
+ }
+
+ .checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 3;
+    height: 20rem;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+ }
+
+ .checkout div{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.4rem;
+ }
+ .food-count{
+    margin-bottom: 1.5rem;
+ }
+
+ .checkout .food-count::before{
+    content: 'Total product: ';
+    color: gray;
+ }
+
+ .checkout .total-price::before{
+    content: 'Total Price: ';
+    color: gray;
+ }
+
+ .checkout a{
+    padding: 1rem;
+    color: white;
+    background-color: rgb(93, 100, 235);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 99%;
+    text-align: center;
+    border-radius: 5rem;
+ }
+
+ .checkout a:hover{
+    color: rgb(93, 100, 235);;
+    background-color: rgb(196, 196, 196);
+    font-weight: bold;
+ }
